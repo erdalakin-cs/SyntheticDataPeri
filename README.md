@@ -4,8 +4,9 @@ This repository has two notebooks that can be reused for reproducing and evaluat
 
 # 1. Data_Generation.ipynb
 
-  -Create an initial dataset of 800 samples based on expert-defined biomarker ranges from previous literature.
-  -A Tabular Variation Autoencoder (TVAE) was trained on the initial dataset to extend it to 4000 data points synthetically.
+  Create an initial dataset of 800 samples based on expert-defined biomarker ranges from previous literature.
+  
+  A Tabular Variation Autoencoder (TVAE) was trained on the initial dataset to synthetically extend it to 4000 data points.
   
 # 2. ML-generation.ipynb
 
