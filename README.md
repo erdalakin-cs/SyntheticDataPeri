@@ -1,6 +1,6 @@
 # Synthetic Data as a Tool for Prototyping Early-Stage Periodontitis Detection Models
 
-This repository has two notebooks that can be reused for reproducing and evaluation:
+This repository has two notebooks that can be reused for reproducing and evaluation.
 
 # 1. Data_Generation.ipynb
 
@@ -10,7 +10,7 @@ This repository has two notebooks that can be reused for reproducing and evaluat
   
 # 2. ML-generation.ipynb
 
-  # applying ML models to the generated dataset by evaluating their effectiveness:
+  # Applying ML models to the generated dataset by evaluating their effectiveness
 
     • XGBoost: Bayesian Optimization was used to fine-tune hyperparameters, resulting in optimal values of learning rate: 0.13, max depth: 1, and n estimators: 387.
     • KNN: For optimal performance, Grid Search was used with parameters such as algorithm: auto, metric: manhattan, n neighbors: 15, and weight: uniform.
