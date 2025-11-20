@@ -19,6 +19,8 @@ This repository has two notebooks that can be reused for reproducing and evaluat
     • RF: The best parameters were determined using Grid Search, yielding: criterion: entropy, max depth: 10, min samples leaf: 1, min samples split: 2, and n estimators: 200.
     • DNN: The sequential model was tuned using Random Search. Optimal parameters were:units: 128, dropout: 0.4, and learning rate: 0.001.
 
+  # SHAP and Gini importance analysis
+
 
 # TO-DO:
   -Creating a user-friendly environment for parameter tuning.
